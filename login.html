@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>login</title>
+<!--   <link href="style.css" rel="stylesheet" type="text/css" /> -->
+</head>
+
+<style>
+  body{
+    background-color: #0c111b;
+  }
+  .iframe-container iframe{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  .box{
+    width: 350px;
+    padding: 50px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #16274b;
+    text-align: center;
+  }
+  .box h1{
+    color: white;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  .box input[type="button"] {
+    color: #1f80e0;
+    border: 0;
+    background: #1b2946;
+    font-size: 100%;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1.5px solid #0367fd;
+    padding: 18px 14px;
+    width: 350px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #1f80e0;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    width: 340px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+    cursor: pointer;
+    
+
+  }  
+  
+</style>
+<body>
+  <script src="script.js"></script>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+<!--   <iframe noresize="noresize"  src="index.html" name="trial" scrolling="No" style="border: none; width: 100%; height: 100%; "></iframe> -->
+  <div class="iframe-container">
+    <iframe src="index.html" scrolling="No"></iframe>  
+  </div>
+  
+  <form class="box" action="login.html" method="POST">
+  
+    <h1 >Login to continue</h1>
+    <input type="button" value="Have a Facebook/Email account?" onclick="msg()">
+    <h2 style="color:white; font-size: 17px; font-family: arial;">or</h2>
+    <input type="text" name="" maxlength="10" placeholder="Enter your mobile number">
+
+  </form>
+
+<!--   <div class="close-btn" id="modal-close-icon" role="presentation"></div> -->
+  
+<script>
+  function msg(){
+    alert('loading')  
+    }
+</script>
+  
+</body>
+
+</html>

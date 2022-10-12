@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Subscribe</title>
+  <!--   <link href="style.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<style>
+  body {
+    background-color: #0c111b;
+  }
+
+  .iframe-container iframe {
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .box {
+    width: 650px;
+    padding: 50px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #16274b;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .box h1{
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+
+  .box h2{
+    text-align: right;
+    margin-right: 50px;
+    color: #dedede;
+  }
+  .grid{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 'left right';
+    
+  }
+  #left {
+    text-align: left;
+    list-style: none;
+    color: #f5f5f5;
+    line-height: 2;
+    font-size: 18px;
+    font-family: "Arial";
+    border-bottom: 1px solid #767676;
+  }
+  #right {
+    text-align: center;
+    list-style: none;
+    color: #dedede;
+    line-height: 2;
+    font-size: 18px;
+    font-family: "Arial";
+  }
+
+  .box button{
+    color: #dedede;
+    border: 0;
+    background: none;
+    font-size: 100%;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+    border: 1.5px solid #767676;
+    padding: 12px 15px;
+    padding-bottom: 5px;
+    width: 212px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #next{
+    color: #dedede;
+    border: none;
+    background: #0367fd;
+/*     font-size: h1; */
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    padding: 12px 15px;
+    padding-bottom: 5px;
+    width: 647px;
+    height: 60px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .btn{
+    color: #dedede;
+    text-decoration: none;
+  }
+  button:hover{
+    background: #1f80e0;
+  }
+</style>
+
+<body>
+  <script src="script.js"></script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+  <div class="iframe-container">
+    <iframe src="index.html" scrolling="No"></iframe>
+  </div>
+
+  <form class="box" action="subscribe.html" method="POST" >
+    <h1>Subscribe to watch all content on Disney+ Hotstar</h1>
+    <h2>Premium</h2>
+<!--     <div class="right-container"> -->
+<!--     <h2>Premium</h2> -->
+<!--     </div> -->
+    <div class="grid">
+      <div id="left">
+        <li>All content</li>
+        <li>Watch on TV or Laptop</li>
+        <li>Ads free movies and shows (except sports)</li>
+        <li>Number of devices that can be logged in</li>
+        <li>Max video quality</li>
+        <li>Max audio quality</li>
+      </div>
+      <div id="right">
+        
+        <li>+</li>
+        <li>+</li>
+        <li>+</li>
+        <li>4</li>
+        <li>4K (2160p)</li>
+        <li>Dolby 5.1</li>
+      </div>
+  </div>
+    
+    <button><a href="#" class="btn">Monthly <br>Rs. 199/Year</a></button>
+    <button><a href="#" class="btn">6 Months <br>Rs. 699/Year</a></button>
+    <button><a href="#" class="btn">Yearly <br>Rs. 999/Year</a></button>
+    <br>
+    <button id="next"><a href="#" class="btn">Continue with Monthly</a></button>
+
+  </form>
+
+
+</body>
+
+</html>
