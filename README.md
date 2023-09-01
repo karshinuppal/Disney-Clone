@@ -1,9 +1,6 @@
 Disney+ Hotstar Frontend Clone
 This project is a front-end clone of the Disney+ Hotstar website, built using HTML, CSS, and JavaScript.
 
-Demo
-You can see a live demo of the project at https://karshinuppal.github.io/Disney/
-
 Features
 The following features are included in the project:
 
