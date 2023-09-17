@@ -16,9 +16,13 @@ Experience the magic of Disney+ Hotstar with these key features:
 We've harnessed the power of these technologies to bring this project to life:
 
 **HTML**: The backbone of web development.
+
 **CSS**: For sleek and stylish presentation.
+
 **JavaScript**: Adding interactivity and enhancing user experience.
+
 **Bootstrap**: Streamlining responsive design.
+
 **Font Awesome**: Elevating the visual appeal with awesome icons.
 
 ## **Contributing**
