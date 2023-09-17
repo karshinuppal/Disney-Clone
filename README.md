@@ -7,9 +7,13 @@ Welcome to the Disney+ Hotstar Frontend Clone project! This is a front-end repli
 Experience the magic of Disney+ Hotstar with these key features:
 
 **Intuitive Navigation**: Explore diverse categories with a user-friendly navigation menu that includes handy dropdowns.
+
 **Showcase Slider**: Discover the latest and greatest with a homepage slider highlighting featured content.
+
 **Search and Discover**: Easily find your preferred movies and TV shows with our robust search functionality.
+
 **User Registration**: Create your personalized account to access a world of entertainment.
+
 **Subscription Integration**: Dive into premium content with seamless connectivity to subscription and premium pages.
 
 ## **Technologies Used**
