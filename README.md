@@ -36,5 +36,5 @@ Maintain the project's coding style and conventions for consistency.
 Be respectful and open to feedback and suggestions from our community.
 Let's make this project even more magical together! ✨
 
-### Special thanks to Disney+ Hotstar for providing inspiration for this project.
+> Special thanks to Disney+ Hotstar for providing inspiration for this project.
 
